@@ -95,10 +95,10 @@ function FinanceForm() {
                    onChange={(e)=>setInsertCaptcha(e.target.value)}
                     />
                     </div>
-
+                    <button className='text-center text-2xl py-[13px] rounded-[6px] min-w-[156px] h-[54px] bg-[#1EA596] text-white' type="submit">Submit</button>
                 </div>
                 </div>
-                <button type="submit">Submit</button>
+              
             </Form>
 
             
